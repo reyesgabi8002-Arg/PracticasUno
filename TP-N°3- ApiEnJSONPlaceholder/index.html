@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Práctica API</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor hero">
+      <div>
+        <h1>Selección Argentina</h1>
+        <p class="estrellas" aria-label="Campeón del mundo en 1978, 1986 y 2022">
+          <span>★</span><span>★</span><span>★</span>
+          <small>1978 · 1986 · 2022</small>
+        </p>
+        <p class="bajada">Campeón del Mundo en Qatar 2022. Los datos de esta página se piden a una API con <code>fetch</code>.</p>
+      </div>
+      <div class="sol" aria-hidden="true"></div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section>
+      <h2 class="titulo-seccion">Publicaciones</h2>
+      <div id="lista" class="grilla"></div>
+    </section>
+
+    <section>
+      <h2 class="titulo-seccion">Usuarios</h2>
+      <div id="usuarios" class="grilla"></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Datos de prueba de JSONPlaceholder · Práctica 2, Programación Web Dinámica</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
